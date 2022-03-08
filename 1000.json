@@ -1,0 +1,2032 @@
+[
+ {
+   "'ID": 1,
+   "Name": "Accessing Functionality Not Properly Constrained by ACLs",
+   "CWE": "::276::285::434::693::732::1193::1220::1297::1311::1314::1315::1318::1320::1321::1327::"
+ },
+ {
+   "'ID": 10,
+   "Name": "Buffer Overflow via Environment Variables",
+   "CWE": "::120::302::118::119::74::99::20::680::733::697::"
+ },
+ {
+   "'ID": 100,
+   "Name": "Overflow Buffers",
+   "CWE": "::120::119::131::129::805::680::"
+ },
+ {
+   "'ID": 101,
+   "Name": "Server Side Include (SSI) Injection",
+   "CWE": "::97::74::20::"
+ },
+ {
+   "'ID": 102,
+   "Name": "Session Sidejacking",
+   "CWE": "::294::522::523::319::614::"
+ },
+ {
+   "'ID": 103,
+   "Name": "Clickjacking",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 104,
+   "Name": "Cross Zone Scripting",
+   "CWE": "::250::638::285::116::20::"
+ },
+ {
+   "'ID": 105,
+   "Name": "HTTP Request Splitting",
+   "CWE": "::74::138::436::"
+ },
+ {
+   "'ID": 107,
+   "Name": "Cross Site Tracing",
+   "CWE": "::693::648::"
+ },
+ {
+   "'ID": 108,
+   "Name": "Command Line Execution through SQL Injection",
+   "CWE": "::89::74::20::78::114::"
+ },
+ {
+   "'ID": 109,
+   "Name": "Object Relational Mapping Injection",
+   "CWE": "::20::89::564::"
+ },
+ {
+   "'ID": 11,
+   "Name": "Cause Web Server Misclassification",
+   "CWE": "::430::"
+ },
+ {
+   "'ID": 110,
+   "Name": "SQL Injection through SOAP Parameter Tampering",
+   "CWE": "::89::20::"
+ },
+ {
+   "'ID": 111,
+   "Name": "JSON Hijacking (aka JavaScript Hijacking)",
+   "CWE": "::345::346::352::"
+ },
+ {
+   "'ID": 112,
+   "Name": "Brute Force",
+   "CWE": "::330::326::521::"
+ },
+ {
+   "'ID": 113,
+   "Name": "Interface Manipulation",
+   "CWE": "::1192::"
+ },
+ {
+   "'ID": 114,
+   "Name": "Authentication Abuse",
+   "CWE": "::287::1244::"
+ },
+ {
+   "'ID": 115,
+   "Name": "Authentication Bypass",
+   "CWE": "::287::"
+ },
+ {
+   "'ID": 116,
+   "Name": "Excavation",
+   "CWE": "::200::1243::"
+ },
+ {
+   "'ID": 117,
+   "Name": "Interception",
+   "CWE": "::319::"
+ },
+ {
+   "'ID": 12,
+   "Name": "Choosing Message Identifier",
+   "CWE": "::201::306::"
+ },
+ {
+   "'ID": 120,
+   "Name": "Double Encoding",
+   "CWE": "::173::172::177::181::183::184::74::20::697::692::"
+ },
+ {
+   "'ID": 121,
+   "Name": "Exploit Non-Production Interfaces",
+   "CWE": "::489::1209::1259::1267::1270::1294::1295::1296::1302::1313::"
+ },
+ {
+   "'ID": 122,
+   "Name": "Privilege Abuse",
+   "CWE": "::269::732::1317::"
+ },
+ {
+   "'ID": 123,
+   "Name": "Buffer Manipulation",
+   "CWE": "::119::"
+ },
+ {
+   "'ID": 124,
+   "Name": "Shared Resource Manipulation",
+   "CWE": "::1189::1331::"
+ },
+ {
+   "'ID": 125,
+   "Name": "Flooding",
+   "CWE": "::404::770::"
+ },
+ {
+   "'ID": 126,
+   "Name": "Path Traversal",
+   "CWE": "::22::"
+ },
+ {
+   "'ID": 127,
+   "Name": "Directory Indexing",
+   "CWE": "::424::425::288::285::732::276::693::"
+ },
+ {
+   "'ID": 128,
+   "Name": "Integer Attacks",
+   "CWE": "::682::"
+ },
+ {
+   "'ID": 129,
+   "Name": "Pointer Manipulation",
+   "CWE": "::682::822::823::"
+ },
+ {
+   "'ID": 13,
+   "Name": "Subverting Environment Variable Values",
+   "CWE": "::353::285::302::74::15::73::20::200::"
+ },
+ {
+   "'ID": 130,
+   "Name": "Excessive Allocation",
+   "CWE": "::404::770::1325::"
+ },
+ {
+   "'ID": 131,
+   "Name": "Resource Leak Exposure",
+   "CWE": "::404::"
+ },
+ {
+   "'ID": 132,
+   "Name": "Symlink Attack",
+   "CWE": "::59::"
+ },
+ {
+   "'ID": 133,
+   "Name": "Try All Common Switches",
+   "CWE": "::912::"
+ },
+ {
+   "'ID": 134,
+   "Name": "Email Injection",
+   "CWE": "::150::"
+ },
+ {
+   "'ID": 135,
+   "Name": "Format String Injection",
+   "CWE": "::134::20::74::"
+ },
+ {
+   "'ID": 136,
+   "Name": "LDAP Injection",
+   "CWE": "::77::90::20::"
+ },
+ {
+   "'ID": 137,
+   "Name": "Parameter Injection",
+   "CWE": "::88::"
+ },
+ {
+   "'ID": 139,
+   "Name": "Relative Path Traversal",
+   "CWE": "::23::"
+ },
+ {
+   "'ID": 14,
+   "Name": "Client-side Injection-induced Buffer Overflow",
+   "CWE": "::120::353::118::119::74::20::680::697::"
+ },
+ {
+   "'ID": 140,
+   "Name": "Bypassing of Intermediate Forms in Multiple-Form Sets",
+   "CWE": "::372::"
+ },
+ {
+   "'ID": 141,
+   "Name": "Cache Poisoning",
+   "CWE": "::348::345::349::346::441::"
+ },
+ {
+   "'ID": 142,
+   "Name": "DNS Cache Poisoning",
+   "CWE": "::348::345::349::346::441::350::"
+ },
+ {
+   "'ID": 145,
+   "Name": "Checksum Spoofing",
+   "CWE": "::354::"
+ },
+ {
+   "'ID": 146,
+   "Name": "XML Schema Poisoning",
+   "CWE": "::15::472::"
+ },
+ {
+   "'ID": 147,
+   "Name": "XML Ping of the Death",
+   "CWE": "::400::770::"
+ },
+ {
+   "'ID": 148,
+   "Name": "Content Spoofing",
+   "CWE": "::345::"
+ },
+ {
+   "'ID": 15,
+   "Name": "Command Delimiters",
+   "CWE": "::146::77::184::78::185::93::140::157::138::154::697::"
+ },
+ {
+   "'ID": 150,
+   "Name": "Collect Data from Common Resource Locations",
+   "CWE": "::552::1239::1258::1266::1272::1323::1324::1330::"
+ },
+ {
+   "'ID": 151,
+   "Name": "Identity Spoofing",
+   "CWE": "::287::"
+ },
+ {
+   "'ID": 153,
+   "Name": "Input Data Manipulation",
+   "CWE": "::20::"
+ },
+ {
+   "'ID": 155,
+   "Name": "Screen Temporary Files for Sensitive Information",
+   "CWE": "::377::"
+ },
+ {
+   "'ID": 157,
+   "Name": "Sniffing Attacks",
+   "CWE": "::311::"
+ },
+ {
+   "'ID": 158,
+   "Name": "Sniffing Network Traffic",
+   "CWE": "::311::"
+ },
+ {
+   "'ID": 159,
+   "Name": "Redirect Access to Libraries",
+   "CWE": "::706::"
+ },
+ {
+   "'ID": 16,
+   "Name": "Dictionary-based Password Attack",
+   "CWE": "::521::262::263::654::307::308::309::"
+ },
+ {
+   "'ID": 160,
+   "Name": "Exploit Script-Based APIs",
+   "CWE": "::346::"
+ },
+ {
+   "'ID": 162,
+   "Name": "Manipulating Hidden Fields",
+   "CWE": "::602::"
+ },
+ {
+   "'ID": 166,
+   "Name": "Force the System to Reset Values",
+   "CWE": "::306::1221::1232::"
+ },
+ {
+   "'ID": 167,
+   "Name": "White Box Reverse Engineering",
+   "CWE": "::1323::1324::"
+ },
+ {
+   "'ID": 168,
+   "Name": "Windows ::DATA Alternate Data Stream",
+   "CWE": "::212::69::"
+ },
+ {
+   "'ID": 169,
+   "Name": "Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 17,
+   "Name": "Using Malicious Files",
+   "CWE": "::732::285::272::59::282::270::693::"
+ },
+ {
+   "'ID": 170,
+   "Name": "Web Application Fingerprinting",
+   "CWE": "::497::"
+ },
+ {
+   "'ID": 174,
+   "Name": "Flash Parameter Injection",
+   "CWE": "::88::"
+ },
+ {
+   "'ID": 175,
+   "Name": "Code Inclusion",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 176,
+   "Name": "Configuration/Environment Manipulation",
+   "CWE": "::15::1233::1234::1304::1328::"
+ },
+ {
+   "'ID": 177,
+   "Name": "Create files with the same name as files protected with a higher classification",
+   "CWE": "::706::"
+ },
+ {
+   "'ID": 18,
+   "Name": "XSS Targeting Non-Script Elements",
+   "CWE": "::80::"
+ },
+ {
+   "'ID": 180,
+   "Name": "Exploiting Incorrectly Configured Access Control Security Levels",
+   "CWE": "::732::1190::1193::1220::1268::1280::1297::1311::1315::1318::1320::1321::"
+ },
+ {
+   "'ID": 181,
+   "Name": "Flash File Overlay",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 182,
+   "Name": "Flash Injection",
+   "CWE": "::20::184::697::"
+ },
+ {
+   "'ID": 183,
+   "Name": "IMAP/SMTP Command Injection",
+   "CWE": "::77::"
+ },
+ {
+   "'ID": 184,
+   "Name": "Software Integrity Attack",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 185,
+   "Name": "Malicious Software Download",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 186,
+   "Name": "Malicious Software Update",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 187,
+   "Name": "Malicious Automated Software Update via Redirection",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 189,
+   "Name": "Black Box Reverse Engineering",
+   "CWE": "::203::1255::1300::"
+ },
+ {
+   "'ID": 19,
+   "Name": "Embedding Scripts within Scripts",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 190,
+   "Name": "Reverse Engineer an Executable to Expose Assumed Hidden Functionality",
+   "CWE": "::912::"
+ },
+ {
+   "'ID": 191,
+   "Name": "Read Sensitive Constants Within an Executable",
+   "CWE": "::798::"
+ },
+ {
+   "'ID": 192,
+   "Name": "Protocol Analysis",
+   "CWE": "::326::"
+ },
+ {
+   "'ID": 193,
+   "Name": "PHP Remote File Inclusion",
+   "CWE": "::98::80::"
+ },
+ {
+   "'ID": 194,
+   "Name": "Fake the Source of Data",
+   "CWE": "::287::"
+ },
+ {
+   "'ID": 196,
+   "Name": "Session Credential Falsification through Forging",
+   "CWE": "::384::664::"
+ },
+ {
+   "'ID": 197,
+   "Name": "Exponential Data Expansion",
+   "CWE": "::770::776::"
+ },
+ {
+   "'ID": 198,
+   "Name": "XSS Targeting Error Pages",
+   "CWE": "::81::"
+ },
+ {
+   "'ID": 199,
+   "Name": "XSS Using Alternate Syntax",
+   "CWE": "::87::"
+ },
+ {
+   "'ID": 2,
+   "Name": "Inducing Account Lockout",
+   "CWE": "::645::"
+ },
+ {
+   "'ID": 20,
+   "Name": "Encryption Brute Forcing",
+   "CWE": "::326::327::693::1204::"
+ },
+ {
+   "'ID": 201,
+   "Name": "Serialized Data External Linking",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 202,
+   "Name": "Create Malicious Client",
+   "CWE": "::602::"
+ },
+ {
+   "'ID": 203,
+   "Name": "Manipulate Registry Information",
+   "CWE": "::15::"
+ },
+ {
+   "'ID": 204,
+   "Name": "Lifting Sensitive Data Embedded in Cache",
+   "CWE": "::524::311::1239::1258::"
+ },
+ {
+   "'ID": 206,
+   "Name": "Signing Malicious Code",
+   "CWE": "::732::"
+ },
+ {
+   "'ID": 207,
+   "Name": "Removing Important Client Functionality",
+   "CWE": "::602::"
+ },
+ {
+   "'ID": 208,
+   "Name": "Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements",
+   "CWE": "::602::"
+ },
+ {
+   "'ID": 209,
+   "Name": "XSS Using MIME Type Mismatch",
+   "CWE": "::79::20::646::"
+ },
+ {
+   "'ID": 21,
+   "Name": "Exploitation of Trusted Identifiers",
+   "CWE": "::290::302::346::539::6::384::664::602::642::"
+ },
+ {
+   "'ID": 212,
+   "Name": "Functionality Misuse",
+   "CWE": "::1242::1246::1281::"
+ },
+ {
+   "'ID": 215,
+   "Name": "Fuzzing for application mapping",
+   "CWE": "::209::532::"
+ },
+ {
+   "'ID": 217,
+   "Name": "Exploiting Incorrectly Configured SSL",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 218,
+   "Name": "Spoofing of UDDI/ebXML Messages",
+   "CWE": "::345::"
+ },
+ {
+   "'ID": 219,
+   "Name": "XML Routing Detour Attacks",
+   "CWE": "::441::610::"
+ },
+ {
+   "'ID": 22,
+   "Name": "Exploiting Trust in Client",
+   "CWE": "::290::287::20::200::693::"
+ },
+ {
+   "'ID": 220,
+   "Name": "Client-Server Protocol Manipulation",
+   "CWE": "::757::"
+ },
+ {
+   "'ID": 221,
+   "Name": "Data Serialization External Entities Blowup",
+   "CWE": "::611::"
+ },
+ {
+   "'ID": 222,
+   "Name": "iFrame Overlay",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 224,
+   "Name": "Fingerprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 226,
+   "Name": "Session Credential Falsification through Manipulation",
+   "CWE": "::565::472::"
+ },
+ {
+   "'ID": 228,
+   "Name": "DTD Injection",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 229,
+   "Name": "Serialized Data Parameter Blowup",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 23,
+   "Name": "File Content Injection",
+   "CWE": "::20::"
+ },
+ {
+   "'ID": 230,
+   "Name": "Serialized Data with Nested Payloads",
+   "CWE": "::112::20::674::770::"
+ },
+ {
+   "'ID": 231,
+   "Name": "Oversized Serialized Data Payloads",
+   "CWE": "::112::20::674::770::"
+ },
+ {
+   "'ID": 233,
+   "Name": "Privilege Escalation",
+   "CWE": "::269::1264::1311::"
+ },
+ {
+   "'ID": 234,
+   "Name": "Hijacking a privileged process",
+   "CWE": "::732::648::"
+ },
+ {
+   "'ID": 237,
+   "Name": "Escaping a Sandbox by Calling Code in Another Language",
+   "CWE": "::693::"
+ },
+ {
+   "'ID": 24,
+   "Name": "Filter Failure through Buffer Overflow",
+   "CWE": "::120::119::118::74::20::680::733::697::"
+ },
+ {
+   "'ID": 240,
+   "Name": "Resource Injection",
+   "CWE": "::99::"
+ },
+ {
+   "'ID": 242,
+   "Name": "Code Injection",
+   "CWE": "::94::"
+ },
+ {
+   "'ID": 243,
+   "Name": "XSS Targeting HTML Attributes",
+   "CWE": "::83::"
+ },
+ {
+   "'ID": 244,
+   "Name": "XSS Targeting URI Placeholders",
+   "CWE": "::83::"
+ },
+ {
+   "'ID": 245,
+   "Name": "XSS Using Doubled Characters",
+   "CWE": "::85::"
+ },
+ {
+   "'ID": 247,
+   "Name": "XSS Using Invalid Characters",
+   "CWE": "::86::"
+ },
+ {
+   "'ID": 248,
+   "Name": "Command Injection",
+   "CWE": "::77::"
+ },
+ {
+   "'ID": 25,
+   "Name": "Forced Deadlock",
+   "CWE": "::412::567::662::667::833::1322::"
+ },
+ {
+   "'ID": 250,
+   "Name": "XML Injection",
+   "CWE": "::91::74::20::707::"
+ },
+ {
+   "'ID": 251,
+   "Name": "Local Code Inclusion",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 252,
+   "Name": "PHP Local File Inclusion",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 253,
+   "Name": "Remote Code Inclusion",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 256,
+   "Name": "SOAP Array Overflow",
+   "CWE": "::805::"
+ },
+ {
+   "'ID": 26,
+   "Name": "Leveraging Race Conditions",
+   "CWE": "::368::363::366::370::362::662::689::667::665::1223::1254::1298::"
+ },
+ {
+   "'ID": 261,
+   "Name": "Fuzzing for garnering other adjacent user/sensitive data",
+   "CWE": "::20::"
+ },
+ {
+   "'ID": 263,
+   "Name": "Force Use of Corrupted Files",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 267,
+   "Name": "Leverage Alternate Encoding",
+   "CWE": "::173::172::180::181::73::74::20::697::692::"
+ },
+ {
+   "'ID": 268,
+   "Name": "Audit Log Manipulation",
+   "CWE": "::117::"
+ },
+ {
+   "'ID": 27,
+   "Name": "Leveraging Race Conditions via Symbolic Links",
+   "CWE": "::367::61::662::689::667::"
+ },
+ {
+   "'ID": 270,
+   "Name": "Modification of Registry Run Keys",
+   "CWE": "::15::"
+ },
+ {
+   "'ID": 271,
+   "Name": "Schema Poisoning",
+   "CWE": "::15::"
+ },
+ {
+   "'ID": 273,
+   "Name": "HTTP Response Smuggling",
+   "CWE": "::74::436::"
+ },
+ {
+   "'ID": 274,
+   "Name": "HTTP Verb Tampering",
+   "CWE": "::302::654::"
+ },
+ {
+   "'ID": 275,
+   "Name": "DNS Rebinding",
+   "CWE": "::350::"
+ },
+ {
+   "'ID": 276,
+   "Name": "Inter-component Protocol Manipulation",
+   "CWE": "::707::"
+ },
+ {
+   "'ID": 277,
+   "Name": "Data Interchange Protocol Manipulation",
+   "CWE": "::707::"
+ },
+ {
+   "'ID": 278,
+   "Name": "Web Services Protocol Manipulation",
+   "CWE": "::707::"
+ },
+ {
+   "'ID": 279,
+   "Name": "SOAP Manipulation",
+   "CWE": "::707::"
+ },
+ {
+   "'ID": 28,
+   "Name": "Fuzzing",
+   "CWE": "::74::20::"
+ },
+ {
+   "'ID": 285,
+   "Name": "ICMP Echo Request Ping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 287,
+   "Name": "TCP SYN Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 29,
+   "Name": "Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions",
+   "CWE": "::367::368::366::370::362::662::691::663::665::"
+ },
+ {
+   "'ID": 290,
+   "Name": "Enumerate Mail Exchange (MX) Records",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 291,
+   "Name": "DNS Zone Transfers",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 292,
+   "Name": "Host Discovery",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 293,
+   "Name": "Traceroute Route Enumeration",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 294,
+   "Name": "ICMP Address Mask Request",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 295,
+   "Name": "Timestamp Request",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 296,
+   "Name": "ICMP Information Request",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 297,
+   "Name": "TCP ACK Ping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 298,
+   "Name": "UDP Ping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 299,
+   "Name": "TCP SYN Ping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 3,
+   "Name": "Using Leading 'Ghost' Character Sequences to Bypass Input Filters",
+   "CWE": "::173::41::172::179::180::181::183::184::20::74::697::707::"
+ },
+ {
+   "'ID": 30,
+   "Name": "Hijacking a Privileged Thread of Execution",
+   "CWE": "::270::"
+ },
+ {
+   "'ID": 300,
+   "Name": "Port Scanning",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 301,
+   "Name": "TCP Connect Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 302,
+   "Name": "TCP FIN Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 303,
+   "Name": "TCP Xmas Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 304,
+   "Name": "TCP Null Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 305,
+   "Name": "TCP ACK Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 306,
+   "Name": "TCP Window Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 307,
+   "Name": "TCP RPC Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 308,
+   "Name": "UDP Scan",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 309,
+   "Name": "Network Topology Mapping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 31,
+   "Name": "Accessing/Intercepting/Modifying HTTP Cookies",
+   "CWE": "::565::302::311::113::539::20::315::384::472::602::642::"
+ },
+ {
+   "'ID": 310,
+   "Name": "Scanning for Vulnerable Software",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 312,
+   "Name": "Active OS Fingerprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 313,
+   "Name": "Passive OS Fingerprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 317,
+   "Name": "IP ID Sequencing Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 318,
+   "Name": "IP 'ID' Echoed Byte-Order Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 319,
+   "Name": "IP (DF) 'Don't Fragment Bit' Echoing Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 32,
+   "Name": "XSS Through HTTP Query Strings",
+   "CWE": "::80::"
+ },
+ {
+   "'ID": 320,
+   "Name": "TCP Timestamp Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 321,
+   "Name": "TCP Sequence Number Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 322,
+   "Name": "TCP (ISN) Greatest Common Divisor Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 323,
+   "Name": "TCP (ISN) Counter Rate Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 324,
+   "Name": "TCP (ISN) Sequence Predictability Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 325,
+   "Name": "TCP Congestion Control Flag (ECN) Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 326,
+   "Name": "TCP Initial Window Size Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 327,
+   "Name": "TCP Options Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 328,
+   "Name": "TCP 'RST' Flag Checksum Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 329,
+   "Name": "ICMP Error Message Quoting Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 33,
+   "Name": "HTTP Request Smuggling",
+   "CWE": "::444::"
+ },
+ {
+   "'ID": 330,
+   "Name": "ICMP Error Message Echoing Integrity Probe",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 34,
+   "Name": "HTTP Response Splitting",
+   "CWE": "::74::113::138::436::"
+ },
+ {
+   "'ID": 35,
+   "Name": "Leverage Executable Code in Non-Executable Files",
+   "CWE": "::94::96::95::97::272::59::282::270::"
+ },
+ {
+   "'ID": 36,
+   "Name": "Using Unpublished Interfaces",
+   "CWE": "::306::693::695::1242::"
+ },
+ {
+   "'ID": 37,
+   "Name": "Retrieve Embedded Sensitive Data",
+   "CWE": "::226::311::525::312::314::315::318::1239::1258::1266::1272::1278::1301::1330::"
+ },
+ {
+   "'ID": 38,
+   "Name": "Leveraging/Manipulating Configuration File Search Paths",
+   "CWE": "::426::427::"
+ },
+ {
+   "'ID": 383,
+   "Name": "Harvesting Information via API Event Monitoring",
+   "CWE": "::311::319::419::602::"
+ },
+ {
+   "'ID": 384,
+   "Name": "Application API Message Manipulation via Man-in-the-Middle",
+   "CWE": "::471::345::346::602::311::"
+ },
+ {
+   "'ID": 385,
+   "Name": "Transaction or Event Tampering via Application API Manipulation",
+   "CWE": "::471::345::346::602::311::"
+ },
+ {
+   "'ID": 386,
+   "Name": "Application API Navigation Remapping",
+   "CWE": "::471::345::346::602::311::"
+ },
+ {
+   "'ID": 387,
+   "Name": "Navigation Remapping To Propagate Malicious Content",
+   "CWE": "::471::345::346::602::311::"
+ },
+ {
+   "'ID": 388,
+   "Name": "Application API Button Hijacking",
+   "CWE": "::471::345::346::602::311::"
+ },
+ {
+   "'ID": 389,
+   "Name": "Content Spoofing Via Application API Manipulation",
+   "CWE": "::353::"
+ },
+ {
+   "'ID": 39,
+   "Name": "Manipulating Opaque Client-based Data Tokens",
+   "CWE": "::353::285::302::472::565::315::539::384::233::"
+ },
+ {
+   "'ID": 4,
+   "Name": "Using Alternative IP Address Encodings",
+   "CWE": "::291::173::"
+ },
+ {
+   "'ID": 40,
+   "Name": "Manipulating Writeable Terminal Devices",
+   "CWE": "::77::"
+ },
+ {
+   "'ID": 401,
+   "Name": "Physically Hacking Hardware",
+   "CWE": "::1263::"
+ },
+ {
+   "'ID": 402,
+   "Name": "Bypassing ATA Password Security",
+   "CWE": "::285::"
+ },
+ {
+   "'ID": 41,
+   "Name": "Using Meta-characters in E-mail Headers to Inject Malicious Payloads",
+   "CWE": "::150::88::697::"
+ },
+ {
+   "'ID": 42,
+   "Name": "MIME Conversion",
+   "CWE": "::120::119::74::20::"
+ },
+ {
+   "'ID": 43,
+   "Name": "Exploiting Multiple Input Interpretation Layers",
+   "CWE": "::179::181::184::183::77::78::74::20::697::707::"
+ },
+ {
+   "'ID": 439,
+   "Name": "Manipulation During Distribution",
+   "CWE": "::1269::"
+ },
+ {
+   "'ID": 44,
+   "Name": "Overflow Binary Resource File",
+   "CWE": "::120::119::697::"
+ },
+ {
+   "'ID": 441,
+   "Name": "Malicious Logic Insertion",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 45,
+   "Name": "Buffer Overflow via Symbolic Links",
+   "CWE": "::120::285::302::118::119::74::20::680::697::"
+ },
+ {
+   "'ID": 459,
+   "Name": "Creating a Rogue Certification Authority Certificate",
+   "CWE": "::327::295::290::"
+ },
+ {
+   "'ID": 46,
+   "Name": "Overflow Variables and Tags",
+   "CWE": "::120::118::119::74::20::680::733::697::"
+ },
+ {
+   "'ID": 460,
+   "Name": "HTTP Parameter Pollution (HPP)",
+   "CWE": "::88::147::235::"
+ },
+ {
+   "'ID": 461,
+   "Name": "Web Services API Signature Forgery Leveraging Hash Function Extension Weakness",
+   "CWE": "::328::290::"
+ },
+ {
+   "'ID": 462,
+   "Name": "Cross-Domain Search Timing",
+   "CWE": "::385::352::208::"
+ },
+ {
+   "'ID": 463,
+   "Name": "Padding Oracle Crypto Attack",
+   "CWE": "::209::514::649::347::354::696::"
+ },
+ {
+   "'ID": 464,
+   "Name": "Evercookie",
+   "CWE": "::359::"
+ },
+ {
+   "'ID": 465,
+   "Name": "Transparent Proxy Abuse",
+   "CWE": "::441::"
+ },
+ {
+   "'ID": 466,
+   "Name": "Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy",
+   "CWE": "::300::"
+ },
+ {
+   "'ID": 467,
+   "Name": "Cross Site Identification",
+   "CWE": "::352::359::"
+ },
+ {
+   "'ID": 468,
+   "Name": "Generic Cross-Browser Cross-Domain Theft",
+   "CWE": "::707::149::177::838::"
+ },
+ {
+   "'ID": 469,
+   "Name": "HTTP DoS",
+   "CWE": "::770::772::"
+ },
+ {
+   "'ID": 47,
+   "Name": "Buffer Overflow via Parameter Expansion",
+   "CWE": "::120::119::118::130::131::74::20::680::697::"
+ },
+ {
+   "'ID": 470,
+   "Name": "Expanding Control over the Operating System from the Database",
+   "CWE": "::250::89::"
+ },
+ {
+   "'ID": 471,
+   "Name": "Search Order Hijacking",
+   "CWE": "::427::"
+ },
+ {
+   "'ID": 472,
+   "Name": "Browser Fingerprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 473,
+   "Name": "Signature Spoof",
+   "CWE": "::20::327::290::"
+ },
+ {
+   "'ID": 474,
+   "Name": "Signature Spoofing by Key Theft",
+   "CWE": "::522::"
+ },
+ {
+   "'ID": 475,
+   "Name": "Signature Spoofing by Improper Validation",
+   "CWE": "::347::327::295::"
+ },
+ {
+   "'ID": 476,
+   "Name": "Signature Spoofing by Misrepresentation",
+   "CWE": "::290::"
+ },
+ {
+   "'ID": 477,
+   "Name": "Signature Spoofing by Mixing Signed and Unsigned Content",
+   "CWE": "::693::311::319::"
+ },
+ {
+   "'ID": 478,
+   "Name": "Modification of Windows Service Configuration",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 479,
+   "Name": "Malicious Root Certificate",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 48,
+   "Name": "Passing Local Filenames to Functions That Expect a URL",
+   "CWE": "::241::706::"
+ },
+ {
+   "'ID": 480,
+   "Name": "Escaping Virtualization",
+   "CWE": "::693::"
+ },
+ {
+   "'ID": 482,
+   "Name": "TCP Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 485,
+   "Name": "Signature Spoofing by Key Recreation",
+   "CWE": "::330::"
+ },
+ {
+   "'ID": 486,
+   "Name": "UDP Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 487,
+   "Name": "ICMP Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 488,
+   "Name": "HTTP Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 489,
+   "Name": "SSL Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 49,
+   "Name": "Password Brute Forcing",
+   "CWE": "::521::262::263::257::654::307::308::309::"
+ },
+ {
+   "'ID": 490,
+   "Name": "Amplification",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 491,
+   "Name": "Quadratic Data Expansion",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 492,
+   "Name": "Regular Expression Exponential Blowup",
+   "CWE": "::400::1333::"
+ },
+ {
+   "'ID": 493,
+   "Name": "SOAP Array Blowup",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 494,
+   "Name": "TCP Fragmentation",
+   "CWE": "::770::404::"
+ },
+ {
+   "'ID": 495,
+   "Name": "UDP Fragmentation",
+   "CWE": "::770::404::"
+ },
+ {
+   "'ID": 496,
+   "Name": "ICMP Fragmentation",
+   "CWE": "::770::404::"
+ },
+ {
+   "'ID": 497,
+   "Name": "File Discovery",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 499,
+   "Name": "Android Intent Intercept",
+   "CWE": "::925::"
+ },
+ {
+   "'ID": 5,
+   "Name": "Blue Boxing",
+   "CWE": "::285::"
+ },
+ {
+   "'ID": 50,
+   "Name": "Password Recovery Exploitation",
+   "CWE": "::522::640::"
+ },
+ {
+   "'ID": 501,
+   "Name": "Android Activity Hijack",
+   "CWE": "::923::"
+ },
+ {
+   "'ID": 502,
+   "Name": "Intent Spoof",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 503,
+   "Name": "WebView Exposure",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 504,
+   "Name": "Task Impersonation",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 506,
+   "Name": "Tapjacking",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 508,
+   "Name": "Shoulder Surfing",
+   "CWE": "::200::359::"
+ },
+ {
+   "'ID": 509,
+   "Name": "Kerberoasting",
+   "CWE": "::522::308::309::294::263::262::521::"
+ },
+ {
+   "'ID": 51,
+   "Name": "Poison Web Service Registry",
+   "CWE": "::285::74::693::"
+ },
+ {
+   "'ID": 510,
+   "Name": "SaaS User Request Forgery",
+   "CWE": "::346::"
+ },
+ {
+   "'ID": 52,
+   "Name": "Embedding NULL Bytes",
+   "CWE": "::158::172::173::74::20::697::707::"
+ },
+ {
+   "'ID": 528,
+   "Name": "XML Flood",
+   "CWE": "::770::"
+ },
+ {
+   "'ID": 53,
+   "Name": "Postfix, Null Terminate, and Backslash",
+   "CWE": "::158::172::173::74::20::697::707::"
+ },
+ {
+   "'ID": 533,
+   "Name": "Malicious Manual Software Update",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 536,
+   "Name": "Data Injected During Configuration",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 54,
+   "Name": "Query System for Information",
+   "CWE": "::209::"
+ },
+ {
+   "'ID": 540,
+   "Name": "Overread Buffers",
+   "CWE": "::125::"
+ },
+ {
+   "'ID": 545,
+   "Name": "Pull Data from System Resources",
+   "CWE": "::1239::1243::1258::1266::1272::1278::1323::1324::1258::1330::"
+ },
+ {
+   "'ID": 546,
+   "Name": "Incomplete Data Deletion in a Multi-Tenant Environment",
+   "CWE": "::284::1266::1272::"
+ },
+ {
+   "'ID": 549,
+   "Name": "Local Execution of Code",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 55,
+   "Name": "Rainbow Table Password Cracking",
+   "CWE": "::261::521::262::263::654::916::308::309::"
+ },
+ {
+   "'ID": 550,
+   "Name": "Install New Service",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 551,
+   "Name": "Modify Existing Service",
+   "CWE": "::284::522::"
+ },
+ {
+   "'ID": 552,
+   "Name": "Install Rootkit ",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 554,
+   "Name": "Functionality Bypass",
+   "CWE": "::424::1299::"
+ },
+ {
+   "'ID": 555,
+   "Name": "Remote Services with Stolen Credentials",
+   "CWE": "::522::308::309::294::263::262::521::"
+ },
+ {
+   "'ID": 556,
+   "Name": "Replace File Extension Handlers",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 558,
+   "Name": "Replace Trusted Executable",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 560,
+   "Name": "Use of Known Domain Credentials",
+   "CWE": "::522::307::308::309::262::263::654::1273::"
+ },
+ {
+   "'ID": 561,
+   "Name": "Windows Admin Shares with Stolen Credentials",
+   "CWE": "::522::308::309::294::263::262::521::"
+ },
+ {
+   "'ID": 562,
+   "Name": "Modify Shared File",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 563,
+   "Name": "Add Malicious File to Shared Webroot",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 564,
+   "Name": "Run Software at Logon",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 565,
+   "Name": "Password Spraying",
+   "CWE": "::521::262::263::654::307::308::309::"
+ },
+ {
+   "'ID": 57,
+   "Name": "Utilizing REST's Trust in the System Resource to Obtain Sensitive Data",
+   "CWE": "::300::287::693::"
+ },
+ {
+   "'ID": 573,
+   "Name": "Process Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 574,
+   "Name": "Services Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 575,
+   "Name": "Account Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 576,
+   "Name": "Group Permission Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 577,
+   "Name": "Owner Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 578,
+   "Name": "Disable Security Software",
+   "CWE": "::284::"
+ },
+ {
+   "'ID": 58,
+   "Name": "Restful Privilege Elevation",
+   "CWE": "::267::269::"
+ },
+ {
+   "'ID": 586,
+   "Name": "Object Injection",
+   "CWE": "::502::"
+ },
+ {
+   "'ID": 588,
+   "Name": "DOM-Based XSS",
+   "CWE": "::79::20::83::"
+ },
+ {
+   "'ID": 589,
+   "Name": "DNS Blocking",
+   "CWE": "::300::"
+ },
+ {
+   "'ID": 59,
+   "Name": "Session Credential Falsification through Prediction",
+   "CWE": "::290::330::331::346::488::539::200::6::285::384::693::"
+ },
+ {
+   "'ID": 590,
+   "Name": "IP Address Blocking",
+   "CWE": "::300::"
+ },
+ {
+   "'ID": 591,
+   "Name": "Reflected XSS",
+   "CWE": "::79::"
+ },
+ {
+   "'ID": 592,
+   "Name": "Stored XSS",
+   "CWE": "::79::"
+ },
+ {
+   "'ID": 593,
+   "Name": "Session Hijacking",
+   "CWE": "::287::"
+ },
+ {
+   "'ID": 594,
+   "Name": "Traffic Injection",
+   "CWE": "::940::"
+ },
+ {
+   "'ID": 595,
+   "Name": "Connection Reset",
+   "CWE": "::940::"
+ },
+ {
+   "'ID": 596,
+   "Name": "TCP RST Injection",
+   "CWE": "::940::"
+ },
+ {
+   "'ID": 597,
+   "Name": "Absolute Path Traversal",
+   "CWE": "::36::"
+ },
+ {
+   "'ID": 6,
+   "Name": "Argument Injection",
+   "CWE": "::74::146::184::78::185::697::"
+ },
+ {
+   "'ID": 60,
+   "Name": "Reusing Session IDs (aka Session Replay)",
+   "CWE": "::294::290::346::384::488::539::200::285::664::732::"
+ },
+ {
+   "'ID": 600,
+   "Name": "Credential Stuffing",
+   "CWE": "::522::307::308::309::262::263::654::"
+ },
+ {
+   "'ID": 606,
+   "Name": "Weakening of Cellular Encryption",
+   "CWE": "::757::"
+ },
+ {
+   "'ID": 608,
+   "Name": "Cryptanalysis of Cellular Encryption",
+   "CWE": "::327::"
+ },
+ {
+   "'ID": 609,
+   "Name": "Cellular Traffic Intercept",
+   "CWE": "::311::"
+ },
+ {
+   "'ID": 61,
+   "Name": "Session Fixation",
+   "CWE": "::384::664::732::"
+ },
+ {
+   "'ID": 612,
+   "Name": "WiFi MAC Address Tracking",
+   "CWE": "::201::300::"
+ },
+ {
+   "'ID": 613,
+   "Name": "WiFi SSID Tracking",
+   "CWE": "::201::300::"
+ },
+ {
+   "'ID": 614,
+   "Name": "Rooting SIM Cards",
+   "CWE": "::327::"
+ },
+ {
+   "'ID": 615,
+   "Name": "Evil Twin Wi-Fi Attack",
+   "CWE": "::300::"
+ },
+ {
+   "'ID": 616,
+   "Name": "Establish Rogue Location",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 618,
+   "Name": "Cellular Broadcast Message Request",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 619,
+   "Name": "Signal Strength Tracking",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 62,
+   "Name": "Cross Site Request Forgery",
+   "CWE": "::352::306::664::732::1275::"
+ },
+ {
+   "'ID": 620,
+   "Name": "Drop Encryption Level",
+   "CWE": "::757::"
+ },
+ {
+   "'ID": 621,
+   "Name": "Analysis of Packet Timing and Sizes",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 622,
+   "Name": "Electromagnetic Side-Channel Attack",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 623,
+   "Name": "Compromising Emanations Attack",
+   "CWE": "::201::"
+ },
+ {
+   "'ID": 624,
+   "Name": "Hardware Fault Injection",
+   "CWE": "::1247::1248::1256::1319::1332::1334::"
+ },
+ {
+   "'ID": 629,
+   "Name": "Unauthorized Use of Device Resources",
+   "CWE": "::1290::1292::"
+ },
+ {
+   "'ID": 63,
+   "Name": "Cross-Site Scripting (XSS)",
+   "CWE": "::79::20::"
+ },
+ {
+   "'ID": 633,
+   "Name": "Token Impersonation",
+   "CWE": "::287::1270::"
+ },
+ {
+   "'ID": 634,
+   "Name": "Probe Audio and Video Peripherals",
+   "CWE": "::267::"
+ },
+ {
+   "'ID": 635,
+   "Name": "Alternative Execution Due to Deceptive Filenames",
+   "CWE": "::162::"
+ },
+ {
+   "'ID": 637,
+   "Name": "Collect Data from Clipboard",
+   "CWE": "::267::"
+ },
+ {
+   "'ID": 639,
+   "Name": "Probe System Files",
+   "CWE": "::552::"
+ },
+ {
+   "'ID": 64,
+   "Name": "Using Slashes and URL Encoding Combined to Bypass Validation Logic",
+   "CWE": "::177::173::172::73::22::74::20::697::707::"
+ },
+ {
+   "'ID": 641,
+   "Name": "DLL Side-Loading",
+   "CWE": "::706::"
+ },
+ {
+   "'ID": 642,
+   "Name": "Replace Binaries",
+   "CWE": "::732::"
+ },
+ {
+   "'ID": 643,
+   "Name": "Identify Shared Files/Directories on System",
+   "CWE": "::267::200::"
+ },
+ {
+   "'ID": 644,
+   "Name": "Use of Captured Hashes (Pass The Hash)",
+   "CWE": "::522::836::308::294::308::"
+ },
+ {
+   "'ID": 645,
+   "Name": "Use of Captured Tickets (Pass The Ticket)",
+   "CWE": "::522::294::308::"
+ },
+ {
+   "'ID": 646,
+   "Name": "Peripheral Footprinting",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 647,
+   "Name": "Collect Data from Registries",
+   "CWE": "::285::"
+ },
+ {
+   "'ID": 648,
+   "Name": "Collect Data from Screen Capture",
+   "CWE": "::267::"
+ },
+ {
+   "'ID": 649,
+   "Name": "Adding a Space to a File Extension",
+   "CWE": "::46::"
+ },
+ {
+   "'ID": 65,
+   "Name": "Sniff Application Code",
+   "CWE": "::319::311::318::693::"
+ },
+ {
+   "'ID": 650,
+   "Name": "Upload a Web Shell to a Web Server",
+   "CWE": "::287::553::"
+ },
+ {
+   "'ID": 651,
+   "Name": "Eavesdropping",
+   "CWE": "::200::"
+ },
+ {
+   "'ID": 652,
+   "Name": "Use of Known Kerberos Credentials",
+   "CWE": "::522::307::308::309::262::263::654::294::836::"
+ },
+ {
+   "'ID": 653,
+   "Name": "Use of Known Windows Credentials",
+   "CWE": "::522::307::308::309::262::263::654::"
+ },
+ {
+   "'ID": 654,
+   "Name": "Credential Prompt Impersonation",
+   "CWE": "::1021::"
+ },
+ {
+   "'ID": 657,
+   "Name": "Malicious Automated Software Update via Spoofing",
+   "CWE": "::494::"
+ },
+ {
+   "'ID": 66,
+   "Name": "SQL Injection",
+   "CWE": "::89::1286::"
+ },
+ {
+   "'ID": 660,
+   "Name": "Root/Jailbreak Detection Evasion via Hooking",
+   "CWE": "::829::"
+ },
+ {
+   "'ID": 661,
+   "Name": "Root/Jailbreak Detection Evasion via Debugging",
+   "CWE": "::489::"
+ },
+ {
+   "'ID": 662,
+   "Name": "Adversary in the Browser (AiTB)",
+   "CWE": "::300::494::"
+ },
+ {
+   "'ID": 663,
+   "Name": "Exploitation of Transient Instruction Execution",
+   "CWE": "::1037::1303::1264::"
+ },
+ {
+   "'ID": 664,
+   "Name": "Server Side Request Forgery",
+   "CWE": "::918::20::"
+ },
+ {
+   "'ID": 665,
+   "Name": "Exploitation of Thunderbolt Protection Flaws",
+   "CWE": "::345::353::288::1188::862::"
+ },
+ {
+   "'ID": 666,
+   "Name": "BlueSmacking",
+   "CWE": "::404::"
+ },
+ {
+   "'ID": 667,
+   "Name": "Bluetooth Impersonation AttackS (BIAS)",
+   "CWE": "::290::"
+ },
+ {
+   "'ID": 668,
+   "Name": "Key Negotiation of Bluetooth Attack (KNOB)",
+   "CWE": "::425::285::693::"
+ },
+ {
+   "'ID": 67,
+   "Name": "String Format Overflow in syslog()",
+   "CWE": "::120::134::74::20::680::697::"
+ },
+ {
+   "'ID": 676,
+   "Name": "NoSQL Injection",
+   "CWE": "::943::1286::"
+ },
+ {
+   "'ID": 679,
+   "Name": "Exploitation of Improperly Configured or Implemented Memory Protections",
+   "CWE": "::1222::1252::1257::1260::1274::1282::1312::1316::1326::"
+ },
+ {
+   "'ID": 68,
+   "Name": "Subvert Code-signing Facilities",
+   "CWE": "::325::328::1326::"
+ },
+ {
+   "'ID": 680,
+   "Name": "Exploitation of Improperly Controlled Registers",
+   "CWE": "::1224::1231::1233::1262::1283::"
+ },
+ {
+   "'ID": 681,
+   "Name": "Exploitation of Improperly Controlled Hardware Security Identifiers",
+   "CWE": "::1259::1267::1270::1294::1302::"
+ },
+ {
+   "'ID": 69,
+   "Name": "Target Programs with Elevated Privileges",
+   "CWE": "::250::15::"
+ },
+ {
+   "'ID": 7,
+   "Name": "Blind SQL Injection",
+   "CWE": "::89::209::74::20::697::707::"
+ },
+ {
+   "'ID": 70,
+   "Name": "Try Common or Default Usernames and Passwords",
+   "CWE": "::521::262::263::798::654::308::309::"
+ },
+ {
+   "'ID": 71,
+   "Name": "Using Unicode Encoding to Bypass Validation Logic",
+   "CWE": "::176::179::180::173::172::184::183::74::20::697::692::"
+ },
+ {
+   "'ID": 72,
+   "Name": "URL Encoding",
+   "CWE": "::173::177::172::73::74::20::"
+ },
+ {
+   "'ID": 73,
+   "Name": "User-Controlled Filename",
+   "CWE": "::20::184::96::348::116::350::86::697::"
+ },
+ {
+   "'ID": 74,
+   "Name": "Manipulating State",
+   "CWE": "::372::315::353::693::1245::1253::1265::1271::"
+ },
+ {
+   "'ID": 75,
+   "Name": "Manipulating Writeable Configuration Files",
+   "CWE": "::349::99::77::346::353::354::"
+ },
+ {
+   "'ID": 76,
+   "Name": "Manipulating Web Input to File System Calls",
+   "CWE": "::23::22::73::77::346::348::285::272::59::74::15::"
+ },
+ {
+   "'ID": 77,
+   "Name": "Manipulating User-Controlled Variables",
+   "CWE": "::15::94::96::285::302::473::1321::"
+ },
+ {
+   "'ID": 78,
+   "Name": "Using Escaped Slashes in Alternate Encoding",
+   "CWE": "::180::181::173::172::73::22::74::20::697::707::"
+ },
+ {
+   "'ID": 79,
+   "Name": "Using Slashes in Alternate Encoding",
+   "CWE": "::173::180::181::20::74::73::22::185::200::697::707::"
+ },
+ {
+   "'ID": 8,
+   "Name": "Buffer Overflow in an API Call",
+   "CWE": "::120::119::118::74::20::680::733::697::"
+ },
+ {
+   "'ID": 80,
+   "Name": "Using UTF-8 Encoding to Bypass Validation Logic",
+   "CWE": "::173::172::180::181::73::74::20::697::692::"
+ },
+ {
+   "'ID": 81,
+   "Name": "Web Logs Tampering",
+   "CWE": "::117::93::75::221::96::20::150::276::279::116::"
+ },
+ {
+   "'ID": 83,
+   "Name": "XPath Injection",
+   "CWE": "::91::74::20::707::"
+ },
+ {
+   "'ID": 84,
+   "Name": "XQuery Injection",
+   "CWE": "::74::707::"
+ },
+ {
+   "'ID": 85,
+   "Name": "AJAX Footprinting",
+   "CWE": "::79::113::348::96::20::116::184::86::692::"
+ },
+ {
+   "'ID": 86,
+   "Name": "XSS Through HTTP Headers",
+   "CWE": "::80::"
+ },
+ {
+   "'ID": 87,
+   "Name": "Forceful Browsing",
+   "CWE": "::425::285::693::"
+ },
+ {
+   "'ID": 88,
+   "Name": "OS Command Injection",
+   "CWE": "::78::88::20::697::"
+ },
+ {
+   "'ID": 89,
+   "Name": "Pharming",
+   "CWE": "::346::350::"
+ },
+ {
+   "'ID": 9,
+   "Name": "Buffer Overflow in Local Command-Line Utilities",
+   "CWE": "::120::118::119::74::20::680::733::697::"
+ },
+ {
+   "'ID": 90,
+   "Name": "Reflection Attack in Authentication Protocol",
+   "CWE": "::301::303::"
+ },
+ {
+   "'ID": 92,
+   "Name": "Forced Integer Overflow",
+   "CWE": "::190::128::120::122::196::680::697::"
+ },
+ {
+   "'ID": 93,
+   "Name": "Log Injection-Tampering-Forging",
+   "CWE": "::117::75::150::"
+ },
+ {
+   "'ID": 94,
+   "Name": "Adversary in the Middle (AiTM)",
+   "CWE": "::300::290::593::287::294::"
+ },
+ {
+   "'ID": 95,
+   "Name": "WSDL Scanning",
+   "CWE": "::538::"
+ },
+ {
+   "'ID": 96,
+   "Name": "Block Access to Libraries",
+   "CWE": "::589::"
+ },
+ {
+   "'ID": 97,
+   "Name": "Cryptanalysis",
+   "CWE": "::327::1204::1240::1241::1279::"
+ },
+ {
+   "'ID": null,
+   "Name": "",
+   "CWE": ""
+ }
+]
