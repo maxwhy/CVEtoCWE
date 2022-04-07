@@ -1,0 +1,21 @@
+{
+  "name": "cvetocwe",
+  "version": "1.0.0",
+  "description": "Identify CVE references in a OVAL Results file and retreives the corresponding CWEs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Massimiliano Torchio",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "conf": "^10.1.1",
+    "fs": "^0.0.1-security",
+    "xhr2": "^0.2.1",
+    "xml2json": "^0.12.0"
+  },
+  "bin": {
+    "cvetocwe": "index.js"
+  }
+}
